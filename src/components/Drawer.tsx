@@ -2,7 +2,7 @@
 import { MenuIcon } from "@/icons";
 import React from "react";
 import Link from "next/link";
-import { navbarRoutes } from "@/route";
+import { allRoutes } from "@/route";
 
 const Drawer = () => {
   const handleLinkClick = () => {
@@ -31,7 +31,7 @@ const Drawer = () => {
             </label> */}
           </div>
           <div className="divider" />
-          {navbarRoutes.map((item, index) => (
+          {allRoutes.map((item, index) => (
             <li key={index} className="text-primary font-bold">
               <Link
                 className="btn btn-ghost justify-start"

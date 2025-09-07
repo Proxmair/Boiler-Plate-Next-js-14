@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const LoginView = (props: Props) => {
+const LoginView = () => {
   return (
     <div className="w-full flex justify-center items-center h-screen">
       <div className="w-[50%] h-[50%] ">

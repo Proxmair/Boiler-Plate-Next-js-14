@@ -1,13 +1,14 @@
 
+import AboutView from "@/view/AboutView";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aurtel Consulting Group | Client",
+  title: "Boiler Plate Next.js 14",
 };
 const page = () => {
   return (
     <div>
-      carear
+      <AboutView />
     </div>
   )
 }

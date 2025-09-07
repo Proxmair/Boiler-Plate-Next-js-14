@@ -1,11 +1,8 @@
-
-import Template from "@/app/template";
-import HeroSection from "../components/HeroSection";
 const HomeView = () => {
   return (
-    <Template> 
-        <HeroSection/>
-    </Template>
+    <div className="w-full flex justify-center items-center min-h-screen">
+      Home
+    </div>
   )
 }
 
